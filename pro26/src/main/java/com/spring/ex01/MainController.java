@@ -10,6 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller("mainController")
 @RequestMapping("/test")
+//fdsfsd
 public class MainController {
    @RequestMapping(value="/main1.do" ,method=RequestMethod.GET)
    public ModelAndView main1(HttpServletRequest request,
